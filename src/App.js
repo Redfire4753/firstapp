@@ -1,24 +1,56 @@
-import logo from './logo.svg';
-import './App.css';
+import styled from 'styled-components';
+import CharacterCards from './components/CharacterCards';
+import Header from './components/HeaderComponents';
+import Footer from './components/FooterComponents';
 
-function App() {
+const PageWrapper = styled.div`
+
+`;
+
+const HeaderWrapper = styled.header`
+  background: linear-gradient(45deg, rgba(28,17,24,255) 0%, rgba(29,17,21,255) 50%, rgba(132,32,22,255) 100%);
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+const BodyWrapper = styled.div`
+  background-image: url('/img/Vampire Survivors logo.jpg');
+  background-color: rgba(132,32,22,255);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+`;
+const FooterWrapper = styled.footer`
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 100px;
+  background-color: rgba(28,17,24,255);
+`;
+const NavbarWrapper = styled.nav`
+
+`;
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <PageWrapper>
+      <HeaderWrapper>
+        <Header />
+      </HeaderWrapper>
+      <NavbarWrapper>
+      </NavbarWrapper>
+      <BodyWrapper>
+      </BodyWrapper>
+      <FooterWrapper>
+        <Footer />
+      </FooterWrapper>
+    </PageWrapper>
   );
 }
 
