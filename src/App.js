@@ -1,8 +1,9 @@
 import styled from 'styled-components';
-import CharacterCards from './components/characterCards';
-import Header from './components/headerComponents';
-import Footer from './components/footerComponents';
-import HomeBody from './components/homeBody';
+import CharacterCards from './components/CharacterCards';
+import Header from './components/HeaderComponents';
+import Footer from './components/FooterComponents';
+import HomeBody from './pages/HomeBody';
+import { Routes, Route } from 'react-router-dom';
 
 const PageWrapper = styled.div`
 
@@ -14,7 +15,10 @@ const App = () => {
   return (
     <PageWrapper>
         <Header />
-        <HomeBody />
+        <Routes>
+          <Route path='/' element={<HomeBody />} />
+          
+        </Routes>
         <Footer />
     </PageWrapper>
   );
