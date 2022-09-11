@@ -12,7 +12,6 @@ const FooterWrapper = styled.footer`
 `;
 const FooterText = styled.p`
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: rgba(255,202,53,255);

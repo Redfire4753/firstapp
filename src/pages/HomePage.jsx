@@ -1,5 +1,12 @@
 import styled from "styled-components";
 import React, { Component } from 'react';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from 'react-router-dom'
+import Character from './App.js'
 
 const BodyWrapper = styled.div`
   background-image: url('/img/Vampire Survivors logo.jpg');
@@ -14,8 +21,6 @@ const BodyWrapper = styled.div`
   padding-top: 100px;
 
 `;
-
-const pagesArray = ['Characters', 'Weapons', 'Passive Items', 'Arcanas','Relics'];
 const PageLinks = styled.div`
     border: 2px solid yellow;
     border-radius: 5px;
@@ -26,15 +31,19 @@ const PageLinks = styled.div`
     justify-content: center;
 `;
 
-class HomeBody extends Component {
+
+
+class HomePage extends Component {
    
     render() { 
         return (
                 <BodyWrapper>
-                    {pagesArray.map(page => <PageLinks>{page}</PageLinks>)}
+                    <Router>
+                        {pagesArray.map(page => <Link to={page}><PageLinks>{page}</PageLinks></Link>)}
+                    </Router>
                 </BodyWrapper>
         );
     }
 }
  
-export default HomeBody;
+export default HomePage;
