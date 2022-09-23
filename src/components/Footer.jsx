@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 const FooterWrapper = styled.footer`
   display: flex;
   position: fixed;

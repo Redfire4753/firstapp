@@ -1,0 +1,136 @@
+
+[
+        {
+            "name": "Antonio",
+            "weapon": "Whip",
+            "passive": "Gains 10% more damage every 10 levels (max +50%).",
+            "unlock": "Available by default",
+            "cost": 0
+        },
+        {
+            "name": "Imelda",
+            "weapon": "Magic Wand",
+            "passive": "Gains 10% more experience every 5 levels (max +30%).",
+            "unlock": "Available by default",
+            "cost": 10
+        },
+        {
+            "name": "Pasqualina",
+            "weapon": "Runetracer",
+            "passive": "Projectiles get 10% faster every 5 levels (max +30%).",
+            "unlock": "Available by default",
+            "cost": 10
+        },
+        {
+            "name": "Gennaro",
+            "weapon": "Knife",
+            "passive": "Permanent +1 projectile (all weapons).",
+            "unlock": "Available by default",
+            "cost": 500
+        },
+        {
+            "name": "Arca",
+            "weapon": "Fire Wand",
+            "passive": "gains -5% Cooldown every 10 levels until level 30.",
+            "unlock": "Get Fire Wand to level 4",
+            "cost": 500
+        },
+        {
+            "name": "Porta",
+            "weapon": "Ligtning Ring",
+            "passive": "Permanent +30% Area. Starts with temporary cooldown bonus.",
+            "unlock": "Get Ligtning Ring to level 4",
+            "cost": 500
+        },
+        {
+            "name": "Lama",
+            "weapon": "Axe",
+            "passive": "Gains +5% Might, MoveSpeed, and Curse every 10 levels (max +20%).",
+            "unlock": "Survive 20 minutes with at least 10% Curse active.",
+            "cost": 500
+        },
+        {
+            "name": "Poe",
+            "weapon": "Garlic",
+            "passive": "Permanent +25% pickup radius and -30 max health.",
+            "unlock": "Get Garlic to level 7.",
+            "cost": 500
+        },
+        {
+            "name": "Poe",
+            "weapon": "Garlic",
+            "passive": "Permanent +25% pickup radius and -30 max health.",
+            "unlock": "Get Garlic to level 7.",
+            "cost": 500
+        },
+        {
+            "name": "Clerici",
+            "weapon": "King Bible",
+            "passive": "Permanent +0.5 HP/s and +50 Max Health. Starts with temporary area bonus.",
+            "unlock": "Recover a total of 1,000 HP.",
+            "cost": 500
+        },
+        {
+            "name": "Dommario",
+            "weapon": "Santa Water",
+            "passive": "Permanent +40% duration and speed, -40% move speed.",
+            "unlock": "Earn 5,000 coins in a single run.",
+            "cost": 500
+        },
+        {
+            "name": "Krochi",
+            "weapon": "Cross",
+            "passive": "Starts with 1 revival. Gains 1 more Revival at level 33.",
+            "unlock": "Defeat a total of 100,000 enemies.",
+            "cost": 500
+        },
+        {
+            "name": "Christine",
+            "weapon": "Pentagram",
+            "passive": "Starts with 1 extra Level.",
+            "unlock": "Get Pentagram to Level 7.",
+            "cost": 500
+        },
+        {
+            "name": "Pugnala",
+            "weapon": "Phiera Der Tuphello + Eight The Sparrow",
+            "passive": "Gains +1% Might every level.",
+            "unlock": "Find and open the coffin in Mad Forest.",
+            "cost": 1000
+        },
+        {
+            "name": "Giovanna",
+            "weapon": "Gatti Amari",
+            "passive": "Gains +1% Projectile Speed every level.",
+            "unlock": "Find and open the coffin in Inlaid Library.",
+            "cost": 1000
+        },
+        {
+            "name": "Poppea",
+            "weapon": "Song of Mana",
+            "passive": "Gains +1% Duration every level.",
+            "unlock": "Find and open the coffin in Dairy Plant.",
+            "cost": 1000
+        },
+        {
+            "name": "Concetta",
+            "weapon": "Shadow Pinion",
+            "passive": "Gains +1% Area every level.",
+            "unlock": "Find and open the coffin in Galio Tower.",
+            "cost": 1000
+        },
+        {
+            "name": "Mortaccio",
+            "weapon": "Bone",
+            "passive": "Gets +1 projectile every 20 levels (max+3).",
+            "unlock": "Defeat a total of 3000 skeletons or enter the Konami Code in the main menu.",
+            "cost": 500
+        },
+        {
+            "name": "Mortaccio",
+            "weapon": "Bone",
+            "passive": "Gets +1 projectile every 20 levels (max+3).",
+            "unlock": "Defeat a total of 3000 skeletons or enter the Konami Code in the main menu.",
+            "cost": 500
+        }
+]

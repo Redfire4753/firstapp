@@ -1,7 +1,7 @@
 export const PAGES = [
     'Characters',
     'Weapons',
-    'Passive Items',
+    'Passive-Items',
     'Arcanas',
     'Relics'
     ];

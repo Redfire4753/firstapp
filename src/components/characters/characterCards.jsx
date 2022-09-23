@@ -20,7 +20,6 @@ const PressMe = styled.button`
 `;
 
 const CharacterCards = ({name = '', onPress}) => {
-
     return (
             <CardWrapper>
                 <CardTitle>{name}</CardTitle>
