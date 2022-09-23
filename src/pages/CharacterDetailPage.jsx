@@ -5,23 +5,23 @@ import CharacterDetail from "../components/characters/CharacterDetail";
 import styled from "styled-components";
 
 const CharacterWrapper = styled.div`
-       width: 100vw;
-       height: 100vh;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       border: 5px red solid;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px red solid;
 `;
 
 const CharacterDetailPage = () => {
-    const { characterName } = useParams();
-    const character = useSelector(SelectCharacterByName(characterName));
+  const { characterName } = useParams();
+  const character = useSelector(SelectCharacterByName(characterName));
 
-    return ( 
-        <CharacterWrapper>
-            <CharacterDetail character={character} />
-        </CharacterWrapper>
-     );
-}
- 
+  return (
+    <CharacterWrapper>
+      <CharacterDetail character={character} />
+    </CharacterWrapper>
+  );
+};
+
 export default CharacterDetailPage;
