@@ -10,6 +10,10 @@ import ArcanasPage from './pages/ArcanasPage';
 import RelicsPage from './pages/RelicsPage';
 import Navbar from './components/Navbar';
 
+
+
+
+
 const App = () => {
   
   return (
