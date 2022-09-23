@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import { PageLinks } from "../../pages/HomePage";
+import { NavLink } from "react-router-dom";
 
 const CardWrapper = styled.div`
     width: 150px;
@@ -15,17 +17,13 @@ const CardTitle = styled.p`
     padding: 0;
     margin: 0;
 `;
-const PressMe = styled.button`
 
-`;
-
-const CharacterCards = ({name = '', onPress}) => {
+const CharacterCard = ({name}) => {
     return (
-            <CardWrapper>
-                <CardTitle>{name}</CardTitle>
-                <PressMe onClick={() => onPress()}>Hello</PressMe>
-            </CardWrapper>
+            <PageLinks>
+                <NavLink to={`/Characters/${name}`} key={name} >{name}</NavLink>
+            </PageLinks>
     )
 };
 
-export default CharacterCards
+export default CharacterCard

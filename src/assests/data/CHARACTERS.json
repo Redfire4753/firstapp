@@ -127,10 +127,157 @@
             "cost": 500
         },
         {
-            "name": "Mortaccio",
-            "weapon": "Bone",
+            "name": "Cavallo",
+            "weapon": "Cherry Bomb",
             "passive": "Gets +1 projectile every 20 levels (max+3).",
-            "unlock": "Defeat a total of 3000 skeletons or enter the Konami Code in the main menu.",
+            "unlock": "Defeat a total of 3000 Lion Heads.",
             "cost": 500
+        },
+        {
+            "name": "Bianca",
+            "weapon": "Carréllo",
+            "passive": "Gets +1 projectile every 20 levels (max+3).",
+            "unlock": "Defeat a total of 3000 Milk Elementals.",
+            "cost": 500
+        },
+        {
+            "name": "O'Sole",
+            "weapon": "Celestial Dusting",
+            "passive": "Gets +1 projectile every 20 levels (max+3).",
+            "unlock": "Defeat a total of 3000 Dragon Shrimps.",
+            "cost": 500
+        },
+        {
+            "name": "Ambrojoe",
+            "weapon": "La Robba",
+            "passive": "Gets +1 projectile every 20 levels (max+3). Starts with temporary Amount bonus.",
+            "unlock": "Defeat a total of 6000 Stage Killers",
+            "cost": 500
+        },
+        {
+            "name": "Gallo",
+            "weapon": "Clock Lancet",
+            "passive": "Starts with one extra level. Gains 10% Growth every 5 levels (max +50%).",
+            "unlock": "Obtain the Infinite Corridor",
+            "cost": 2000
+        },
+        {
+            "name": "Divano",
+            "weapon": "Laurel",
+            "passive": "Starts with one extra level. Gains +1 Armor every 5 levels (max +5).",
+            "unlock": "Obtain the Crimson Shroud",
+            "cost": 2000
+        },
+        {
+            "name": "Zi'Assunta",
+            "weapon": "Vento Sacro",
+            "passive": "Gains +0.5% Might, projectile Speed, Duration, and Area every level.",
+            "unlock": "Find and open the coffin in Cappella Magna.",
+            "cost": 5000
+        },
+        {
+            "name": "Queen Sigma",
+            "weapon": "Victory Sword",
+            "passive": "She owns everything",
+            "unlock": "Complete the Collection",
+            "cost": 0
+        },
+        {
+            "name": "Exdash",
+            "weapon": "Ebony Wings",
+            "passive": "At least they're lucky.(+100% luck)",
+            "unlock": "Cast the spell x-x1viiq, or Find a lot of Little Clovers.",
+            "cost": 777
+        },
+        {
+            "name": "Toastie",
+            "weapon": "Peachone",
+            "passive": "So much potential(starts with 1 health and gains 10,000 health at level 100 and 65520 armor at level 200)",
+            "unlock": "Uppercut a non-red reaper",
+            "cost": 777
+        },
+        {
+            "name": "Smith",
+            "weapon": "Vandalier",
+            "passive": "gains 0.01 Recovery, 0.7% Might, Area, Speed and Duration, -0.25% Cooldown, and 1% Luck every level.",
+            "unlock": "Sometimes you just need to ask for help.",
+            "cost": 7777
+        },
+        {
+            "name": "Random",
+            "weapon": "Random",
+            "passive": "The character is presented with one of eight names, selected at random",
+            "unlock": "Look under previously owned coffins.",
+            "cost": 5000
+        },
+        {
+            "name": "Marrabbio",
+            "weapon": "Thousand Edge",
+            "passive": "Starts with -110% Projectile Speed meaning projectiles will shoot backwards",
+            "unlock": "Follow the trail after pillaging Pummarola and Skull O'Maniac from the Mad Forest.",
+            "cost": 666
+        },
+        {
+            "name": "Minnah",
+            "weapon": "Bloody Tear",
+            "passive": "Might, Projectile Speed, Duration, Area, and Cooldown change every minute.",
+            "unlock": "Deal with the consequence of stealing cheese from the Dairy Plant.",
+            "cost": 666
+        },
+        {
+            "name": "Leda",
+            "weapon": "Holy Wand",
+            "passive": "Starts with 100% Might",
+            "unlock": "Investigate the bottom of Gallo Tower.",
+            "cost": 666
+        },
+        {
+            "name": "Cosmo",
+            "weapon": "Peachone + Ebony Wings",
+            "passive": "Gains +1 Recovery and +1% Luck every level. Gains +1 Revival every 100 levels. Has hidden weapons.",
+            "unlock": "With a pure heart and two good friends, visit the fiery balcony in Cappella Magna.",
+            "cost": 666
+        },
+        {
+            "name": "Peppino",
+            "weapon": "Soul Eater",
+            "passive": "Starts with temporarily reduced area.",
+            "unlock": "Be a good boy in Il Molise.",
+            "cost": 666
+        },
+        {
+            "name": "Trouser",
+            "weapon": "Candybox",
+            "passive": "Gains +1% Greed every level. Gold Fever lasts longer.",
+            "unlock": "Master all 16 accessories in Moongolow.",
+            "cost": 5000
+        },
+        {
+            "name": "MissingNo",
+            "weapon": "Axe/Death Spiral",
+            "passive": "MissingNo's base stats are randomized every time the character selection screen is opened. The final stat is determined by the base stat and the stat from PowerUps.",
+            "unlock": "With the most adverse fate in Green Acres, run off the edge of the world.",
+            "cost": 66666
+        },
+        {
+            "name": "Gains",
+            "weapon": "Heaven Sword",
+            "passive": "Gains +2% Growth every level.",
+            "unlock": "Find the only one place where flowers bloom in The Bone Zone.",
+            "cost": 666
+        },
+        {
+            "name": "Gyorunton",
+            "weapon": "Bracelet",
+            "passive": "Gains +1% Curse every level. Can find evolutions in any Treasure.",
+            "unlock": "Survive the Boss Rash with just one weapon.",
+            "cost": 5000
+        },
+        {
+            "name": "Red Death",
+            "weapon": "Death Spiral",
+            "passive": "starts with +100% Movement Speed, 255 Max Health and +20% Might.",
+            "unlock": "Settle the score with the Reaper.",
+            "cost": 666
         }
 ]

@@ -9,7 +9,7 @@ import PassiveItemsPage from './pages/PassiveItemsPage';
 import ArcanasPage from './pages/ArcanasPage';
 import RelicsPage from './pages/RelicsPage';
 import Navbar from './components/Navbar';
-
+import CharacterDetailPage from './pages/CharacterDetailPage';
 
 
 
@@ -23,6 +23,7 @@ const App = () => {
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='Characters' element={<CharacterPage />} />
+          <Route path='Characters/:characterName' element={<CharacterDetailPage />} />
           <Route path='Weapons' element={<WeaponsPage />} />
           <Route path='Passive-Items' element={<PassiveItemsPage />} />
           <Route path='Arcanas' element={<ArcanasPage />} />

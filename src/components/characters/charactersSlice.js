@@ -12,3 +12,10 @@ const charactersSlice = createSlice({
 
 export const charactersReducer = charactersSlice.reducer;
 
+export const SelectAllCharacters = (state) => {
+    return state.characters.charactersArray;
+}
+
+export const SelectCharacterByName = (name) => (state) => {
+    return state.characters.charactersArray.find(character => character.name === name);
+}
