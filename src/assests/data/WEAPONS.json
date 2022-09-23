@@ -7,8 +7,10 @@
         "evolutionNeeds": "Hollow Heart"
     },
     {
-        "name": "Whip",
+        "name": " ",
         "description": "Attacks horizontally, passes through enemies",
-        "unlock": "Unlocked by default"
+        "unlock": "Unlocked by default",
+        "evolution": true,
+        "evolutionNeeds": "Hollow Heart"
     }
 ]
