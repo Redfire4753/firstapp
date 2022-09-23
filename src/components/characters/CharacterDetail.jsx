@@ -1,10 +1,11 @@
 import { Descriptions } from "antd";
 import { NavLink } from "react-router-dom";
-import { BodyWrapper } from "../../pages/HomePage";
+import { BodyWrapper } from "../styled/divs";
 
 
 const CharacterDetail = ({character}) => {
     const { name, weapon, passive, unlock, cost } = character;
+
     return (
         <BodyWrapper>
             <Descriptions title='Character Details'>
