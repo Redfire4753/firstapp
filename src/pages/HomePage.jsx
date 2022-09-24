@@ -1,4 +1,3 @@
-import styled from "styled-components";
 import { NavLink } from 'react-router-dom'
 import { useSelector } from 'react-redux';
 import { SelectAllPages } from "./pagesSlice";
@@ -11,9 +10,9 @@ const HomePage = () => {
     const pages = useSelector(SelectAllPages);
 
     return (
-            <BodyWrapper>
-                    {pages.map(page => <NavLink to={`/${page}`} key={page}><PageLinks>{page}</PageLinks></NavLink>)}
-            </BodyWrapper>
+        <BodyWrapper>
+                {pages.map(page => <NavLink to={`/${page}`} key={page}><PageLinks>{page}</PageLinks></NavLink>)}
+        </BodyWrapper>
     );
 }
  
