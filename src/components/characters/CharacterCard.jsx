@@ -1,4 +1,3 @@
-import styled from "styled-components";
 import { PageLinks } from "../styled/divs";
 import { NavLink } from "react-router-dom";
 
