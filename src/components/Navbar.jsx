@@ -8,6 +8,7 @@ const NavWrapper = styled.div`
     top: 0;
     display: flex;
     justify-content: space-evenly;
+    background-color: orange;
 `;
 
 const Navbar = () => {
