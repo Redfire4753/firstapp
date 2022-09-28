@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const BodyWrapper = styled.div`
     background-color: rgba(132, 32, 22, 255);
-    max-width: 1600px;
+    max-width: 2000px;
     width: 100vw;
     height: 100vh;
     display: flex;

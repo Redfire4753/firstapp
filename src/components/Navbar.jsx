@@ -3,24 +3,28 @@ import {
     NavLink
 } from 'react-router-dom'
 
+const NavContainer = styled.div`
+  display: flex;
+  justify-content: space-around;  
+`;
 const NavWrapper = styled.div`
-    position: relative;
-    top: 0;
-    display: flex;
-    justify-content: space-evenly;
+    position: absolute;
+    top: 100px;
     background-color: orange;
 `;
 
 const Navbar = () => {
     return ( 
-        <NavWrapper>
-            <NavLink to='/'>Home</NavLink>
-            <NavLink to='/Characters'>Characters</NavLink>
-            <NavLink to='/Weapons'>Weapons</NavLink>
-            <NavLink to='/Passive-Items'>Passive-Items</NavLink>
-            <NavLink to='/Arcanas'>Arcanas</NavLink>
-            <NavLink to='/Relics'>Relics</NavLink>
-        </NavWrapper>
+        <NavContainer>
+            <NavWrapper>
+                <NavLink to='/'>Home</NavLink>
+                <NavLink to='/Characters'>Characters</NavLink>
+                <NavLink to='/Weapons'>Weapons</NavLink>
+                <NavLink to='/Passive-Items'>Passive-Items</NavLink>
+                <NavLink to='/Arcanas'>Arcanas</NavLink>
+                <NavLink to='/Relics'>Relics</NavLink>
+            </NavWrapper>
+        </NavContainer>
      );
 }
  

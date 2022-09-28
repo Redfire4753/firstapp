@@ -11,6 +11,7 @@ const HeaderWrapper = styled.header`
         rgba(29, 17, 21, 255) 50%,
         rgba(132, 32, 22, 255) 100%
     );
+    top: 0;
     width: 100vw;
     height: 100px;
     display: flex;
