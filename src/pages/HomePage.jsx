@@ -11,7 +11,13 @@ const HomePage = () => {
 
     return (
         <BodyWrapper>
-                {pages.map(page => <NavLink to={`/${page}`} key={page}><PageLinks>{page}</PageLinks></NavLink>)}
+                <div>
+                    <h1>Welcome to the wiki for Vampire Survivors</h1>
+                    <p>A well beloved game for only $4.99 on steam</p>
+                </div>
+                <div style={{display: 'flex', gap: '10px'}}>
+                    {pages.map(page => <NavLink to={`/${page}`} key={page}><PageLinks>{page}</PageLinks></NavLink>)}
+                </div>
         </BodyWrapper>
     );
 }

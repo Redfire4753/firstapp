@@ -3,19 +3,21 @@ import {
     NavLink
 } from 'react-router-dom'
 
-const NavContainer = styled.div`
-  display: flex;
-  justify-content: space-around;  
-`;
+
 const NavWrapper = styled.div`
     position: absolute;
     top: 100px;
     background-color: orange;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px;
 `;
 
 const Navbar = () => {
     return ( 
-        <NavContainer>
             <NavWrapper>
                 <NavLink to='/'>Home</NavLink>
                 <NavLink to='/Characters'>Characters</NavLink>
@@ -24,7 +26,6 @@ const Navbar = () => {
                 <NavLink to='/Arcanas'>Arcanas</NavLink>
                 <NavLink to='/Relics'>Relics</NavLink>
             </NavWrapper>
-        </NavContainer>
      );
 }
  

@@ -8,7 +8,7 @@ const WeaponsPage = () => {
 
     return ( 
         <BodyWrapper>
-            {weapons.map(weapon => <WeaponCard name={weapon.name} />)}
+            {weapons.map(weapon => <WeaponCard key={weapon.name} name={weapon.name} />)}
         </BodyWrapper>
      );
 }
